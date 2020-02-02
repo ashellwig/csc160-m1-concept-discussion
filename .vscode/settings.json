@@ -108,5 +108,10 @@
         "pdflatex"
       ]
     }
+  ],
+  "cSpell.allowCompoundWords": true,
+  "cSpell.words": [
+    "defn",
+    "mathcolor"
   ]
 }
