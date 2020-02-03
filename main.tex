@@ -119,15 +119,18 @@
 
     \section{Research Prompt}
       \begin{mdframed}
-        Why doesn’t the compiler also find logic errors?
+        Why does the compiler not find logic errors?
       \end{mdframed}
 
     \section{Response}
       The compiler checks the source code for syntax errors but not for logic
         errors. This is because logic errors are categorized as
         \texttt{run-time errors} and not \texttt{compile-time errors}
-        \cite{pitts_2000}. Logic errors are only catchable while
-        \textit{running} the program.
+        \cite{pitts_2000}. Logic errors are only visible while
+        \textit{running} the program \cite[Chapter 4]{malik_2015}. The simplest
+        way to identify an error which only occurs at run-time is to use a
+        debugging tool and place break points throughout the code until the issue
+        is found.
 
 
   \newpage
